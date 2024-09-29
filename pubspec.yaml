@@ -1,0 +1,58 @@
+name: flutter_cripton_erp_app
+version: 1.0.1+1
+publish_to: none
+description: A new Flutter project for Cripton ERP owned by Pakiza Software Limited.
+             Created & developed by Nizam uddin Shamrat (dev.nizamuddin@gmail.com) And Nafim Ahmed(recentnafimahmed@gmail.com)
+environment: 
+  sdk: '>=3.1.2 <4.0.0'
+
+dependencies:
+  flutter: 
+      sdk: flutter
+  url_launcher: ^6.2.1
+  carousel_slider: ^4.2.1
+  flutter_svg: ^2.0.8
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  flutter_easyloading: ^3.0.5
+  syncfusion_flutter_charts: ^23.1.38
+  badges: ^3.1.2
+  dio: ^5.3.3
+  timelines: ^0.1.0
+  flutter_slidable: ^3.0.0
+  connectivity_plus: ^4.0.2
+  get_storage: ^2.1.1
+  intl: ^0.18.1
+  dropdown_search: ^5.0.6
+  file_picker: ^6.1.1
+  searchable_paginated_dropdown: ^1.2.0
+  http_parser: ^4.0.2
+  webview_flutter: ^4.4.2
+  location: ^5.0.3
+  ansicolor: ^2.0.2  # ************************** Package for DEBUG CONSOLE. Must be removed in release build ************************** #
+  image_picker: ^1.0.7
+  image_cropper: ^5.0.1
+  path_provider: ^2.1.2
+  open_file: ^3.3.2
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  
+  assets:
+    - assets/logo/
+    - assets/icons/
+    - assets/icons/home/
+    - assets/icons/ssp/
+    - assets/icons/requisition/
+    - assets/icons/document/
+    - assets/icons/app/
+    - assets/icons/hris/
+    - assets/images/
+    - assets/loader/
+
+    
